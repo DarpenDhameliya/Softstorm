@@ -1,0 +1,156 @@
+// Here you can add other styles
+// @@ -0,0 +1,89 @@
+// // Here you can add other styles
+// .row {
+//     --cui-gutter-x: 1.rem;
+//     --cui-gutter-y: 0;
+//     display: flex;
+//     flex-wrap: wrap;
+//     margin-top: calc(-1 * var(--cui-gutter-y));
+//     margin-right: calc(-0.5 * var(--cui-gutter-x));
+//     margin-left: calc(-0.5 * var(--cui-gutter-x));
+// }
+
+// @media only screen and (max-width: 768px) {
+//     /* For mobile phones: */
+//         [class*="col-"] {
+//         width: auto;
+//        }
+// }
+
+h3, .h3 {
+    margin-top: 0.5REM;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    line-height: 1;
+    text-align: center;
+    color: var(--cui-heading-color);
+}
+
+.bg-primary {
+    --cui-bg-opacity: 0.4;
+    background-color: rgba(var(--cui-primary-rgb), var(--cui-bg-opacity)) !important;
+}
+
+.py-5 {
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+}
+
+.card {
+    --cui-card-border-width: 0px;
+}
+
+.rounded {
+    border-radius: var(--cui-border-radius) !important;
+}
+
+.btn-check:checked + .btn, .btn-check:active + .btn, .btn:active, .btn.active, .btn.show {
+    color: rgb(52 41 41 / 87%);
+    background-color: #9c95dd;
+    border-color: #827ea5;
+}
+
+.modal-body {
+    position: relative;
+    flex: 1 1 auto;
+    padding: 5px;
+}
+
+.canimg {
+    position: absolute;
+    margin-left: -25px;
+    opacity: 0.8;
+}
+
+// .container {
+//     min-height:100%;
+//     }
+    
+//     .top_div {
+//     height:70%;
+//     width:100%;
+//     margin:auto;
+//     text-align:center;
+//     }
+    
+//     .bottom_div {
+//     height:30%;
+//     width:100%;
+//     margin:auto;
+//     text-align:center;
+//     }
+
+.card-footer{
+    position: absolute;
+    margin-top: 170px;
+}
+
+.handerr{
+    color: red
+}
+
+// .img {
+//     width: -webkit-fill-available !important;
+// }
+
+.mxwidth {
+    padding: 5px;
+}
+
+// @media (min-width: 1200px)
+ .container-xl, .container-lg, .container-md, .container-sm, .container {
+    max-width: 1200px;
+}
+
+.CCardHeader{
+    background-color: whitesmoke;
+}
+
+.mt10{
+    margin-top: 10px;
+}
+
+p{
+    margin-bottom: 00.5REM;
+}
+
+.mt30{
+    margin-top: 30px;
+}
+
+.model {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 405px) and (min-width: 380px) {
+ 
+    .mobview {
+        max-width: 300px;
+        align-items: 'center'
+   }
+
+}
+
+@media (max-width: 380px) and (min-width: 320px) {
+ 
+    .mobview {
+        max-width: 15rem;
+   }
+
+}
+
+@media (max-width: 320px) {
+ 
+    .mobview {
+        max-width: 13rem;
+   }
+
+}
+
+.setspace {
+    justify-content: flex-end;
+    display: flex;
+    margin-right: 2px;
+}
